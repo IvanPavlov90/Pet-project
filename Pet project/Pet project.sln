@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pet project", "Pet project.csproj", "{79FC8D8C-EF5D-44D0-A16B-617AB8314B9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pet project.Web", "Pet project.Web.csproj", "{79FC8D8C-EF5D-44D0-A16B-617AB8314B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pet project.Data", "..\Pet project.Data\Pet project.Data.csproj", "{F4CA8B0C-A8D0-4532-9D9B-0EE56A19B88F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{79FC8D8C-EF5D-44D0-A16B-617AB8314B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79FC8D8C-EF5D-44D0-A16B-617AB8314B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79FC8D8C-EF5D-44D0-A16B-617AB8314B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CA8B0C-A8D0-4532-9D9B-0EE56A19B88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CA8B0C-A8D0-4532-9D9B-0EE56A19B88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CA8B0C-A8D0-4532-9D9B-0EE56A19B88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CA8B0C-A8D0-4532-9D9B-0EE56A19B88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

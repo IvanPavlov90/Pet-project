@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Pet_project.Data.Contexts;
 
 namespace Pet_project
 {
@@ -27,6 +27,10 @@ namespace Pet_project
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
+            });
+
+            services.AddDbContext<PetProjectDbContext>(options => {
+                options.UseSqlServer(@"Server=DESKTOP-VRBEQ21\SQLEXPRESS;Database=PetProject;Trusted_Connection=True");
             });
         }
 

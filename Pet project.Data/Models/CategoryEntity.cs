@@ -4,18 +4,19 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Pet_project.Data.Models
 {
     [Table("Categories")]
-    internal class CategoryEntity
+    public class CategoryEntity
     {
         /// <summary>
         /// Уникальный идентификатор
         /// </summary>
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        int Id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Название категории
         /// </summary>
-        string Name { get; set; }
+        [StringLength(200)]
+        public string Name { get; set; }
     }
 }

@@ -3,8 +3,13 @@ using Pet_project.Data.Models;
 
 namespace Pet_project.Data.Contexts
 {
-    internal class PetProjectDbContext : DbContext
+    public class PetProjectDbContext : DbContext
     {
-        public DbSet<CategoryEntity> Categories { get; set; }
-    }
+		public DbSet<CategoryEntity> Categories { get; set; }
+
+		public DbSet<GoodEntity> Goods { get; set; }
+
+		public PetProjectDbContext(DbContextOptions<PetProjectDbContext> options) : base(options)
+        { }
+	}
 }

@@ -30,7 +30,7 @@ namespace Pet_project
             });
 
             services.AddDbContext<PetProjectDbContext>(options => {
-                options.UseSqlServer(@"Server=DESKTOP-VRBEQ21\SQLEXPRESS;Database=PetProject;Trusted_Connection=True");
+                options.UseSqlServer(Configuration.GetConnectionString("PetProjectDb"));
             });
         }
 

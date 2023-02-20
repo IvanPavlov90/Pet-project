@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useEffect } from 'react';
-import { connect } from 'react-redux';
+import Header from '../components/Header/Header';
+import '../style/pages/_Home.scss';
 
 const Home: React.FC<{}> = () => {
     const setPageTitle = () => {
@@ -10,9 +11,11 @@ const Home: React.FC<{}> = () => {
     useEffect(setPageTitle, []);
 
     return (
-        <div>
-            <h1>Hello, world!</h1>
-        </div>
+        <main className="main">
+            <Header />
+            <section></section>
+            <footer></footer>
+        </main>
     );
 };
 

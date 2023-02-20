@@ -1,2 +1,19 @@
-﻿body {
+﻿@import '../_variables.scss';
+
+.info-list {
+    width: 70%;
+
+    .info-list__item {
+        border: 0;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .info-list__item:hover {
+        color: $main-hover-color;
+    }
+}
+
+.info-btn {
+    width: 10%;
 }

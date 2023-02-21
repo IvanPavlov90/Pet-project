@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\components\Header\Header.tsx" />
+    <None Remove="ClientApp\src\components\Search\Search.tsx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +32,13 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\components\Header\Header.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\components\Search\Search.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ClientApp\public\img\icons\basket.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

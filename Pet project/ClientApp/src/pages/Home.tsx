@@ -13,6 +13,7 @@ const Home: React.FC<{}> = () => {
     return (
         <main className="main">
             <Header />
+            
             <section></section>
             <footer></footer>
         </main>

@@ -22,7 +22,23 @@
     width: 10%;
 }
 
-.basket-img {
-    width: 30px;
-    height: 30px;
+.basket-btn {
+    position: relative;
+    border: 0;
+    background-color: #ffffff;
+
+    .basket-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .basket-counter {
+        position: absolute;
+        left: 70%;
+        top: 65%;
+    }
+}
+
+.basket-info {
+    width: 12%;
 }

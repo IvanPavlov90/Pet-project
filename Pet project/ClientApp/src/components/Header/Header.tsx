@@ -18,8 +18,11 @@ const Header: React.FC<{}> = () => {
             <div className="d-flex justify-content-between">
                 <button type="button" className="btn btn-success catalog-btn">Каталог</button>
                 <Search />
-                <img src="/img/icons/basket.png" alt="Корзина" className="basket-img" />
-                <div className="d-flex flex-column">
+                <button className="basket-btn">
+                    <span className="badge badge-pill badge-success basket-counter">0</span>
+                    <img src="/img/icons/basket.png" alt="Корзина" className="basket-img" />
+                </button>
+                <div className="d-flex flex-column basket-info">
                     <span>Сумма покупок</span>
                     <span>0 руб.</span>
                 </div>

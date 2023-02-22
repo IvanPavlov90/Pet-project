@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\components\Catalog\Catalog.tsx" />
     <None Remove="ClientApp\src\components\Header\Header.tsx" />
     <None Remove="ClientApp\src\components\Search\Search.tsx" />
   </ItemGroup>
@@ -31,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\components\Catalog\Catalog.tsx" />
     <TypeScriptCompile Include="ClientApp\src\components\Header\Header.tsx" />
     <TypeScriptCompile Include="ClientApp\src\components\Search\Search.tsx" />
   </ItemGroup>

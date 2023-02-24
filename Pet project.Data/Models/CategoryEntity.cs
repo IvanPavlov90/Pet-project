@@ -18,5 +18,10 @@ namespace Pet_project.Data.Models
         /// </summary>
         [StringLength(200)]
         public string Name { get; set; }
+
+        /// <summary>
+        /// Ид родительской категории
+        /// </summary>
+        public int? ParentCategoryId { get; set; }
     }
 }

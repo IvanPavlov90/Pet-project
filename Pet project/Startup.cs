@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Pet_project.Data.Common;
 using Pet_project.Data.Contexts;
 
 namespace Pet_project
@@ -28,6 +29,8 @@ namespace Pet_project
             {
                 configuration.RootPath = "ClientApp/build";
             });
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));
 
             services.AddDbContext<PetProjectDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("PetProjectDb"));

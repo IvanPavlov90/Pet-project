@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Pet_project.Models;
 using System.Threading.Tasks;
 
 namespace Pet_project.Controllers
@@ -8,12 +7,7 @@ namespace Pet_project.Controllers
     {
         public async Task<ActionResult> Index() 
         {
-            HomeModel model = new HomeModel()
-            {
-                Number = 5
-            };
-
-            return View(model);
+            
         }
     }
 }

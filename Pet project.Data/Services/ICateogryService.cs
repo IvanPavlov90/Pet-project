@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Pet_project.Data.Providers
+namespace Pet_project.Data.Services
 {
-    interface ICategoryProvider
+    interface ICateogryService
     {
         /// <summary>
         /// Метод для получения категорий из бд

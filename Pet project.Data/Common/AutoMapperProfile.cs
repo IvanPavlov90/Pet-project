@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Pet_project.Data.Business_Objects;
+using Pet_project.Data.Models;
 
 namespace Pet_project.Data.Common
 {
@@ -6,7 +8,7 @@ namespace Pet_project.Data.Common
     {
         public AutoMapperProfile()
         {
-
+            CreateMap<CategoryEntity, CategoryBo>().ReverseMap();
         }
     }
 }

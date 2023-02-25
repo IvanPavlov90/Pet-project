@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Pet_project.Data.Services
 {
-    interface ICateogryService
+    public interface ICateogryService
     {
         /// <summary>
         /// Метод для получения категорий из бд

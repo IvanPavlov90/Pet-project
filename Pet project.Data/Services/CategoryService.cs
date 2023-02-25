@@ -7,9 +7,9 @@ namespace Pet_project.Data.Services
 {
     class CategoryService : ICateogryService
     {
-        private readonly CategoryProvider _categoryProvider;
+        private readonly ICategoryProvider _categoryProvider;
 
-        public CategoryService(CategoryProvider categoryProvider)
+        public CategoryService(ICategoryProvider categoryProvider)
         {
             _categoryProvider = categoryProvider;
         }

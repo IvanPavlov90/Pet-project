@@ -26,6 +26,11 @@
     <None Remove="ClientApp\src\components\Catalog\Catalog.tsx" />
     <None Remove="ClientApp\src\components\Header\Header.tsx" />
     <None Remove="ClientApp\src\components\Search\Search.tsx" />
+    <None Remove="ClientApp\src\store\Home\ActionCreators.ts" />
+    <None Remove="ClientApp\src\store\Home\Actions.ts" />
+    <None Remove="ClientApp\src\store\Home\Reducer.ts" />
+    <None Remove="ClientApp\src\store\Home\State.ts" />
+    <None Remove="Dto\CaterogyDto.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,6 +41,11 @@
     <TypeScriptCompile Include="ClientApp\src\components\Catalog\Catalog.tsx" />
     <TypeScriptCompile Include="ClientApp\src\components\Header\Header.tsx" />
     <TypeScriptCompile Include="ClientApp\src\components\Search\Search.tsx" />
+    <TypeScriptCompile Include="ClientApp\src\store\Home\ActionCreators.ts" />
+    <TypeScriptCompile Include="ClientApp\src\store\Home\Actions.ts" />
+    <TypeScriptCompile Include="ClientApp\src\store\Home\Reducer.ts" />
+    <TypeScriptCompile Include="ClientApp\src\store\Home\State.ts" />
+    <TypeScriptCompile Include="Dto\CaterogyDto.ts" />
   </ItemGroup>
 
   <ItemGroup>

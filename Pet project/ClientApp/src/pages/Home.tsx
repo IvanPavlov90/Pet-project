@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import ICategoryDto from '../../../Dto/CaterogyDto';
+import { ICategoryDto } from '../../../Interfaces/CategoryDto';
 import Header from '../components/Header/Header';
 import { ApplicationState } from '../store';
 import '../style/pages/_Home.scss';

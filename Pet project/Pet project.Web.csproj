@@ -30,7 +30,7 @@
     <None Remove="ClientApp\src\store\Home\Actions.ts" />
     <None Remove="ClientApp\src\store\Home\Reducer.ts" />
     <None Remove="ClientApp\src\store\Home\State.ts" />
-    <None Remove="Dto\CaterogyDto.ts" />
+    <None Remove="Interfaces\CategoryDto.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,7 +45,7 @@
     <TypeScriptCompile Include="ClientApp\src\store\Home\Actions.ts" />
     <TypeScriptCompile Include="ClientApp\src\store\Home\Reducer.ts" />
     <TypeScriptCompile Include="ClientApp\src\store\Home\State.ts" />
-    <TypeScriptCompile Include="Dto\CaterogyDto.ts" />
+    <TypeScriptCompile Include="Interfaces\CategoryDto.ts" />
   </ItemGroup>
 
   <ItemGroup>

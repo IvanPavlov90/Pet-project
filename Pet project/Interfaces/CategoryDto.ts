@@ -1,4 +1,4 @@
-﻿export default interface ICategoryDto {
+﻿export interface ICategoryDto {
     /* Уникальный идентификатор **/
     id: number;
     /* Название категории **/
